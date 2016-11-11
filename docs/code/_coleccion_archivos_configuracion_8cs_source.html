@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Wheel.Configuration: Fichero Fuente src/Section/ColeccionArchivosConfiguracion.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo_Small.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wheel.Configuration
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6a08c607e63649e31ae8c9ebfe823a81.html">Section</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ColeccionArchivosConfiguracion.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Configuration;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_wheel.html">Wheel</a>.Configuration.Section</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html">ColeccionArchivosConfiguracion</a> : ConfigurationElementCollection</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">public</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a> <span class="keyword">this</span>[<span class="keywordtype">int</span> index]</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#ab271dffcaa2a105cdb804a945a1732e3">   56</a></span>&#160;        {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> (<a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a>)BaseGet(index); }</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">set</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="keywordflow">if</span> (BaseGet(index) != null)</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                    BaseRemoveAt(index);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                }</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                BaseAdd(index, value);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            }</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#abbcbe236c706fc16a5562d4bcff5131d">   92</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#abbcbe236c706fc16a5562d4bcff5131d">Add</a>(<a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a> archivoConfiguracion)</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            BaseAdd(archivoConfiguracion);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a35a0bafff48f4e1ceb7be94168c8ace5">  120</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a35a0bafff48f4e1ceb7be94168c8ace5">Clear</a>()</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        {</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            BaseClear();</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a025aa9d2a0c086d3965686f9f317ca42">  149</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">override</span> ConfigurationElement <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a025aa9d2a0c086d3965686f9f317ca42">CreateNewElement</a>()</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        {</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a>();</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div><div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a620a4a86e58b875a2c67e4e06efabd4c">  179</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">object</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a620a4a86e58b875a2c67e4e06efabd4c">GetElementKey</a>(ConfigurationElement archivoConfiguracion)</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        {</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">return</span> ((<a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a>)archivoConfiguracion).Nombre;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        }</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div><div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a401cd2e082bb979ac5334417b9bbbde4">  208</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a401cd2e082bb979ac5334417b9bbbde4">Remove</a>(<a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">ArchivoConfiguracion</a> archivoConfiguracion)</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            BaseRemove(archivoConfiguracion.<a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html#a06c34f0037969d95bec285a569434915">Nombre</a>);</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        }</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div><div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#acaebed6848d7f236573163afa625b10b">  237</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#acaebed6848d7f236573163afa625b10b">RemoveAt</a>(<span class="keywordtype">int</span> index)</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        {</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            BaseRemoveAt(index);</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div><div class="line"><a name="l00266"></a><span class="lineno"><a class="line" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a805fbc1d9208fe2c5cb2f877794e2e60">  266</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a805fbc1d9208fe2c5cb2f877794e2e60">Remove</a>(<span class="keywordtype">string</span> name)</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        {</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            BaseRemove(name);</div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        }</div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    }</div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div><div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion_html_a06c34f0037969d95bec285a569434915"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html#a06c34f0037969d95bec285a569434915">Wheel.Configuration.Section.ArchivoConfiguracion.Nombre</a></div><div class="ttdeci">string Nombre</div><div class="ttdoc">Obtiene o establece el nombre identificador del archivo. Puede no corresponder al nombre del archivo ...</div><div class="ttdef"><b>Definition:</b> <a href="_archivo_configuracion_8cs_source.html#l00055">ArchivoConfiguracion.cs:55</a></div></div>
+<div class="ttc" id="namespace_wheel_html"><div class="ttname"><a href="namespace_wheel.html">Wheel</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion_html"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_archivo_configuracion.html">Wheel.Configuration.Section.ArchivoConfiguracion</a></div><div class="ttdoc">Elemento de configuración que representa un archivo de configuración externo. </div><div class="ttdef"><b>Definition:</b> <a href="_archivo_configuracion_8cs_source.html#l00028">ArchivoConfiguracion.cs:28</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_a805fbc1d9208fe2c5cb2f877794e2e60"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a805fbc1d9208fe2c5cb2f877794e2e60">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.Remove</a></div><div class="ttdeci">void Remove(string name)</div><div class="ttdoc">Elimina un elemento según su nombre. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00266">ColeccionArchivosConfiguracion.cs:266</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html">Wheel.Configuration.Section.ColeccionArchivosConfiguracion</a></div><div class="ttdoc">Colección de elementos de configuración que contiene una lista de Archivos de configuración externos...</div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00028">ColeccionArchivosConfiguracion.cs:28</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_acaebed6848d7f236573163afa625b10b"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#acaebed6848d7f236573163afa625b10b">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.RemoveAt</a></div><div class="ttdeci">void RemoveAt(int index)</div><div class="ttdoc">Elimina el elemento ubicado en el índice especificado. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00237">ColeccionArchivosConfiguracion.cs:237</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_a620a4a86e58b875a2c67e4e06efabd4c"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a620a4a86e58b875a2c67e4e06efabd4c">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.GetElementKey</a></div><div class="ttdeci">override object GetElementKey(ConfigurationElement archivoConfiguracion)</div><div class="ttdoc">Obtiene la clave de un elemento de configuración. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00179">ColeccionArchivosConfiguracion.cs:179</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_a35a0bafff48f4e1ceb7be94168c8ace5"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a35a0bafff48f4e1ceb7be94168c8ace5">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">Vacia la colección de elementos. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00120">ColeccionArchivosConfiguracion.cs:120</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_a025aa9d2a0c086d3965686f9f317ca42"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a025aa9d2a0c086d3965686f9f317ca42">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.CreateNewElement</a></div><div class="ttdeci">override ConfigurationElement CreateNewElement()</div><div class="ttdoc">Crea un nuevo elemento de configuración. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00149">ColeccionArchivosConfiguracion.cs:149</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_abbcbe236c706fc16a5562d4bcff5131d"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#abbcbe236c706fc16a5562d4bcff5131d">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.Add</a></div><div class="ttdeci">void Add(ArchivoConfiguracion archivoConfiguracion)</div><div class="ttdoc">Agrega un elemento de configuración a la colección actual. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00092">ColeccionArchivosConfiguracion.cs:92</a></div></div>
+<div class="ttc" id="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion_html_a401cd2e082bb979ac5334417b9bbbde4"><div class="ttname"><a href="class_wheel_1_1_configuration_1_1_section_1_1_coleccion_archivos_configuracion.html#a401cd2e082bb979ac5334417b9bbbde4">Wheel.Configuration.Section.ColeccionArchivosConfiguracion.Remove</a></div><div class="ttdeci">void Remove(ArchivoConfiguracion archivoConfiguracion)</div><div class="ttdoc">Elimina un elemento de la colección. </div><div class="ttdef"><b>Definition:</b> <a href="_coleccion_archivos_configuracion_8cs_source.html#l00208">ColeccionArchivosConfiguracion.cs:208</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
